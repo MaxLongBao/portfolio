@@ -1,0 +1,11 @@
+:root {
+  --main-bg-color: #ADD7F6;
+  --main-text-color: #87BFFF;
+  --main-darker-text-color: #3F8EFC;
+  --other-color: #2667FF;
+  --other-color-2: #3B28CC;
+}
+
+body {
+  background-color: #eef6f6;
+}
