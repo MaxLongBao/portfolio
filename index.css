@@ -1,11 +1,28 @@
-:root {
-  --main-bg-color: #ADD7F6;
-  --main-text-color: #87BFFF;
-  --main-darker-text-color: #3F8EFC;
-  --other-color: #2667FF;
-  --other-color-2: #3B28CC;
-}
-
 body {
   background-color: #eef6f6;
+}
+
+/*
+header {
+  background-color: var(-main-bg-color);
+} */
+
+header {
+  background-color: #ADD7F6;
+}
+
+footer {
+  background-color: #ADD7F6;
+}
+
+.avatar {
+  background-color: white;
+  width: 76px;
+  border-radius: 50%;
+}
+
+.bio-avatar {
+  width: 106px;
+  border-radius: 50%;
+  background-color: #DDD;
 }
