@@ -1,5 +1,6 @@
 body {
   background-color: #eef6f6;
+  margin: 0;
 }
 
 /*
@@ -15,6 +16,20 @@ footer {
   background-color: #ADD7F6;
 }
 
+ul {
+  list-style-type: none;
+}
+
+h1, h2, h3 {
+  color: #3F8EFC;
+  font-family: sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
 .avatar {
   background-color: white;
   width: 76px;
@@ -25,4 +40,13 @@ footer {
   width: 106px;
   border-radius: 50%;
   background-color: #DDD;
+}
+
+.nav-menu-list {
+  display: flex;
+  margin-right: 30px;
+}
+
+.nav-menu-list li {
+  margin: 20px 30px 0px 0px;
 }
