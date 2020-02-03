@@ -4,14 +4,17 @@
 <head>
   <meta charset="utf-8">
   <title>Max Bisceglie</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="index.css">
   <link href="https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans|Montserrat|Montserrat+Alternates|Sacramento&display=swap" rel="stylesheet">
+
 <body>
   <!-- header -->
   <header>
 
     <!-- navbar -->
-    <nav>
+    <!-- <nav>
       <div class="nav-image">
         <a href="index.html"><img src="images/avatar.svg" alt="avatar" class="avatar"/></a>
       </div>
@@ -22,19 +25,41 @@
           <li><a href="#">Notes</a></li>
         </ul>
       </div>
+    </nav> -->
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="index.html"><img src="images/avatar.svg" alt="avatar" class="avatar"</a>
+      <button class="navbar-toggler relative" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" id="active" href="index.html">About<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Note</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <!-- end of navbar -->
 
     <div class="header-main">
       <div class="header-main-name">
         <img src="images/cloud1.png" alt="main image" class="cloud1" />
-        <h1>I'm Max</h1>
+        <h1 class="title">I'm Max.</h1>
+        <img src="images/cloud.png" alt="main image" class="cloud" />
       </div>
       <div class="header-main-intro">
         <p id="intro">a Web Designer</p>
       </div>
       <div class="header-main-image">
-        <img src="images/cloud.png" alt="main image" class="cloud" />
         <img src="images/land.svg" alt="main image" />
       </div>
     </div>
@@ -124,13 +149,14 @@
       </div>
     </div>
     <p>
-      Icons made by <a href="https://www.flaticon.com/authors/smashicons"
-      title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/"
-      title="Flaticon"> www.flaticon.com</a>
+      Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
     </p>
   </footer>
   <!-- end of footer -->
 
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 
 </html>

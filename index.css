@@ -19,12 +19,13 @@ footer {
 
 ul {
   list-style-type: none;
+  margin-right: 10em;
 }
 
 h1 {
   color: #3F8EFC;
   font-family: 'Sacramento', 'cursive';
-  font-size: 90px;
+  font-size: 6rem;
 }
 
 h2, h3 {
@@ -32,18 +33,22 @@ h2, h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
-nav {
-  display: flex;
-  justify-content: space-between;
+li {
+  margin-right: 30px;
+  font-size: 1.2rem;
 }
 
 a {
   text-decoration: none;
 }
 
+a:hover {
+  color: #3F8EFC;
+}
+
 .avatar {
   background-color: white;
-  width: 76px;
+  width: 66px;
   border-radius: 50%;
 }
 
@@ -55,13 +60,53 @@ a {
 
 .nav-menu-list {
   display: flex;
-  margin-right: 30px;
+  margin-right: 13em;
+}
+
+.nav-image {
+  position: relative;
+  /* top: 100%; */
+  left: 15%;
 }
 
 .nav-menu-list li {
-  margin: 20px 30px 0px 0px;
+  margin: 1em 2em 0 0;
 }
 
 .cloud, .cloud1 {
   width: 150px;
+}
+
+.header-main-name, .header-main-intro {
+  text-align: center;
+}
+
+.relative {
+  position: absolute;
+  top: 30%;
+  right: 10%;
+}
+
+.navbar-brand {
+  margin-left: 10%;
+}
+
+.navbar {
+  background-color: #ADD7F6;
+}
+
+.nav-link {
+  color: #3F8EFC;
+}
+
+.nav-link:hover {
+  color: #3f4cfc
+}
+
+#intro {
+  color: #3F8EFC;
+}
+
+#active {
+  color: #3f4cfc;
 }
