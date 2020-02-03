@@ -4,11 +4,6 @@ body {
   font-family: 'Montserrat Alternates', sans-serif;
 }
 
-/*
-header {
-  background-color: var(-main-bg-color);
-} */
-
 header {
   background-color: #ADD7F6;
 }
@@ -43,7 +38,7 @@ a {
 }
 
 a:hover {
-  color: #3F8EFC;
+  color: #3F4CFC;
 }
 
 .avatar {
@@ -81,6 +76,10 @@ a:hover {
   text-align: center;
 }
 
+.header-main-image {
+  text-align: center;
+}
+
 .relative {
   position: absolute;
   top: 30%;
@@ -95,18 +94,31 @@ a:hover {
   background-color: #ADD7F6;
 }
 
-.nav-link {
-  color: #3F8EFC;
-}
-
 .nav-link:hover {
-  color: #3f4cfc
+  color: #3F4CFC;
 }
 
 #intro {
   color: #3F8EFC;
+  font-size: 1.2rem;
 }
 
 #active {
   color: #3f4cfc;
+}
+
+#work {
+  color: #3F8EFC;
+}
+
+#work:hover {
+  color: #3F4CFC;
+}
+
+#note {
+  color: #3F8EFC;
+}
+
+#note:hover {
+  color: #3F4CFC;
 }
