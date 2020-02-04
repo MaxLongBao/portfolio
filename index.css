@@ -13,11 +13,6 @@ footer {
   background-color: #ADD7F6;
 }
 
-ul {
-  list-style-type: none;
-  margin-right: 10em;
-}
-
 h1 {
   color: #3F8EFC;
   font-family: 'Sacramento', 'cursive';
@@ -30,6 +25,17 @@ h1 {
 h2, h3 {
   color: #3F8EFC;
   font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  font-size: 1.2em;
+  color: #545454;
+  line-height: 2em;
+}
+
+ul {
+  list-style-type: none;
+  margin-right: 10em;
 }
 
 li {
@@ -56,12 +62,6 @@ a:hover {
   background-color: white;
   width: 66px;
   border-radius: 50%;
-}
-
-.bio-avatar {
-  width: 106px;
-  border-radius: 50%;
-  background-color: #DDD;
 }
 
 .nav-menu-list {
@@ -126,6 +126,27 @@ a:hover {
 
 .nav-link:hover {
   color: #3F4CFC;
+}
+
+.bio-avatar {
+  width: 140px;
+  border-radius: 50%;
+  background-color: #DDD;
+  margin: 5rem auto 2.5rem auto;
+}
+
+.bio-inner {
+  text-align: center;
+}
+
+.bio-inner p {
+  width: 450px;
+  margin: 2rem auto;
+  padding: 0 15px;
+}
+
+.skills {
+  text-align: center;
 }
 
 #intro {
