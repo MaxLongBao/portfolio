@@ -97,7 +97,6 @@ footer p {
 }
 
 .cloud-up, .cloud-down {
-  /* width: 150px; */
   position: absolute;
 }
 
@@ -110,7 +109,7 @@ footer p {
 
 .cloud-down {
   width: 15%;
-  top: 45%;
+  top: 55%;
   left: 10%;
   opacity: 0.8;
 }
