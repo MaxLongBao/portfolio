@@ -47,7 +47,7 @@ hr {
   border: dotted #EEF6F6 6px;
   border-bottom: none;
   width: 2.5rem;
-  margin: 100px auto;
+  margin: 80px auto;
 }
 
 a {
@@ -147,6 +147,44 @@ a:hover {
 
 .skills {
   text-align: center;
+}
+
+.skills-first {
+  width: 70%;
+  margin: 5% auto 5% auto;
+  text-align: left;
+}
+
+.skills-avatar {
+  width: 140px;
+  border-radius: 50%;
+  background-color: #DDD;
+  margin: -20px 25px 40px 0;
+}
+
+.skills-text {
+  display: inline-block;
+  width: 70%;
+  margin: 20px auto;
+}
+
+.skills-second {
+  width: 70%;
+  margin: 5% auto 5% auto;
+  text-align: right;
+}
+
+.skills-second-avatar {
+  width: 140px;
+  border-radius: 50%;
+  background-color: #DDD;
+  margin: -30px 0px 40px 25px;
+}
+
+.skills-second-text {
+  display: inline-block;
+  width: 70%;
+  margin: 20px auto;
 }
 
 #intro {
