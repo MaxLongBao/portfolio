@@ -1,11 +1,12 @@
 body {
-  background-color: #eef6f6;
+  background-color: white;
   margin: 0;
   font-family: 'Montserrat Alternates', sans-serif;
 }
 
 header {
   background-color: #ADD7F6;
+  width: 100%;
 }
 
 footer {
@@ -21,6 +22,9 @@ h1 {
   color: #3F8EFC;
   font-family: 'Sacramento', 'cursive';
   font-size: 6rem;
+  display: inline-block;
+  width: 100%;
+  margin: 8rem auto 0 auto;
 }
 
 h2, h3 {
@@ -31,6 +35,13 @@ h2, h3 {
 li {
   margin-right: 30px;
   font-size: 1.2rem;
+}
+
+hr {
+  border: dotted #EEF6F6 6px;
+  border-bottom: none;
+  width: 2.5rem;
+  margin: 100px auto;
 }
 
 a {
@@ -68,8 +79,23 @@ a:hover {
   margin: 1em 2em 0 0;
 }
 
-.cloud, .cloud1 {
-  width: 150px;
+.cloud-up, .cloud-down {
+  /* width: 150px; */
+  position: absolute;
+}
+
+.cloud-up {
+  width: 15%;
+  top: 25%;
+  left: 75%;
+  opacity: 0.8;
+}
+
+.cloud-down {
+  width: 15%;
+  top: 45%;
+  left: 10%;
+  opacity: 0.8;
 }
 
 .land-img {
@@ -105,6 +131,7 @@ a:hover {
 #intro {
   color: #3F8EFC;
   font-size: 1.2rem;
+  margin-bottom: 8%;
 }
 
 #active {
