@@ -72,6 +72,10 @@ a:hover {
   width: 150px;
 }
 
+.land-img {
+  max-width: 100%;
+}
+
 .header-main-name, .header-main-intro {
   text-align: center;
 }
