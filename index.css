@@ -146,7 +146,7 @@ footer p {
 }
 
 .bio-avatar {
-  max-width: 140px;
+  width: 140px;
   border-radius: 50%;
   background-color: #EEE;
   margin: 5rem auto 2.5rem auto;
@@ -157,7 +157,7 @@ footer p {
 }
 
 .bio-inner p {
-  width: 450px;
+  max-width: 450px;
   margin: 2rem auto;
   padding: 0 15px;
 }
