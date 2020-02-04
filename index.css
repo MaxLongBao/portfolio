@@ -288,6 +288,7 @@ footer p {
 
 #note {
   color: #3F8EFC;
+  display: none;
 }
 
 #note:hover {
