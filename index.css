@@ -157,15 +157,15 @@ footer p {
 }
 
 .bio-inner {
-  max-width: 500px;
+  max-width: 390px;
   margin: 0 auto 0 auto;
 }
-
+/*
 .bio-inner p {
   max-width: 450px;
   margin: 2rem auto;
   padding: 0 15px;
-}
+} */
 
 .skills {
   text-align: center;
