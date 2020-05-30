@@ -1,0 +1,16 @@
+h3 {
+    color: white;
+    font-weight: bold;
+}
+
+.header-main {
+    padding-bottom: 180px;
+}
+
+#first {
+    background-color: #26C485;
+}
+
+#first-image {
+    max-width: 350px;
+}
