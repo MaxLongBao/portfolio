@@ -1,10 +1,28 @@
+h2 {
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 h3 {
     color: white;
     font-weight: bold;
 }
 
+p {
+    color: white;
+    text-align: center;
+}
+
 .header-main {
     padding-bottom: 180px;
+}
+
+
+.description {
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 #first {
@@ -12,5 +30,14 @@ h3 {
 }
 
 #first-image {
-    max-width: 350px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 50%;
+    height: auto;
+}
+
+#first-title {
+    margin-top: 40px;
+    text-align: center;
 }
