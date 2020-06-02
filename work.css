@@ -87,6 +87,18 @@ p {
     color: black;
 }
 
+.work-fourth {
+    background-color: #fc4f49;
+}
+
+.work-fourth h3, .work-fourth h2, .work-fourth p {
+    color: white;
+}
+
+.btn-fourth {
+    background-color: #0D3256;
+}
+
 .help-title, .help-subtitle {
     color: #3F8EFC;
     font-family: 'Montserrat', sans-serif;
