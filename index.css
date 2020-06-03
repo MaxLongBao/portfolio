@@ -298,3 +298,26 @@ footer p {
 #note:hover {
   color: #3F4CFC;
 }
+
+.scroll {
+  position: fixed;
+  background-color: white;
+  margin-top:-200px;
+  width: 100%;
+  opacity: 0.9;
+  transition: 1s;
+}
+
+.scroll-animation {
+  margin-top: -93px;
+  transition: 1s;
+}
+
+.display {
+  display: none;
+}
+
+.hide {
+  opacity: 0;
+  transition: 1s;
+}
