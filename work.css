@@ -99,6 +99,18 @@ p {
     background-color: #0D3256;
 }
 
+.work-five {
+    background-color: #b2bfa8;
+}
+
+.work-five h3, .work-five h2, .work-five p {
+    color: black;
+}
+
+.btn-five {
+    background-color: #1a2a07;
+}
+
 .help-title, .help-subtitle {
     color: #3F8EFC;
     font-family: 'Montserrat', sans-serif;
