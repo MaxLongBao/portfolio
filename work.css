@@ -38,6 +38,22 @@ p {
     text-align: center;
 }
 
+.work-card-game {
+    background-color: #2879B4;
+}
+
+.work-card-game h3, .work-card-game h2, .work-card-game p {
+    color: white;
+}
+
+.btn-card-game {
+    background-color: #BE2A92;
+}
+
+.btn-card-game:hover {
+    background-color: #942F92;
+}
+
 .work-first {
     background-color: #f9e284;
 }
