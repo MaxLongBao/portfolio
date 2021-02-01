@@ -38,6 +38,17 @@ p {
     text-align: center;
 }
 
+.work-paint {
+    background-color: #32979F;
+}
+.work-paint h3, .work-paint h2, .work-paint p {
+    color: #333333;
+}
+
+.btn-paint {
+    background-color: #ABABAB;
+}
+
 .work-card-game {
     background-color: #2879B4;
 }
